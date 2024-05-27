@@ -11,11 +11,11 @@ spec:
     name: fast-api
     ports:
     - containerPort: 80
-    resources: 
-      limits: 
+    resources:
+      limits:
         cpu: 100m
         memory: 128Mi
-      requests: 
+      requests:
         cpu: 100m
         memory: 128Mi
     readinessProbe:
